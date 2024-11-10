@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="page_title">Tasks</string>
+    <string name="priority_low">Low</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_high">High</string>
+
+    <string name="delete_dialog_title">Delete</string>
+    <string name="delete_dialog_text">Are you sure you want to delete this task permanently?</string>
+    <string name="empty_tasks">No task found!\nGood job!</string>
+
+
+    <!-- Dropdown values -->
+    <string name="delete_all_completed">Delete all completed tasks</string>c
+
+    <!-- Icon descriptions -->
+    <string name="tasks_menu">Tasks menu</string>
+    <string name="delete_all_completed_icon">Delete all completed tasks icon</string>c
+
+
+</resources>

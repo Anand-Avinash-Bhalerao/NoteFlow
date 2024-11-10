@@ -8,12 +8,12 @@ plugins {
 
 android {
     namespace = "com.a3b.noteflow"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.a3b.noteflow"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -42,6 +42,9 @@ android {
 }
 
 dependencies {
+
+    implementation(project(":feature:tasks:data"))
+    implementation(project(":feature:tasks:presentation"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
